@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../constants/images";
 import { StyledMain } from "./styled/Main.Styled";
 
-export const Main = () => {
+const Main = () => {
   return (
     <StyledMain>
       <div className="container-copy">
@@ -12,6 +12,7 @@ export const Main = () => {
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
         </p>
+        <button>request invite</button>
       </div>
 
       <div className="container-main-img">
@@ -20,3 +21,5 @@ export const Main = () => {
     </StyledMain>
   );
 };
+
+export default Main;

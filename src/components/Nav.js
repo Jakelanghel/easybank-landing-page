@@ -3,7 +3,7 @@ import { images } from "../constants/images";
 
 import React from "react";
 
-export const Nav = () => {
+const Nav = () => {
   return (
     <StyledNav>
       <img src={images.logo} alt="easy bank" className="logo" />
@@ -20,3 +20,5 @@ export const Nav = () => {
     </StyledNav>
   );
 };
+
+export default Nav;
