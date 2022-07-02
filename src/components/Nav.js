@@ -8,6 +8,8 @@ const Nav = () => {
     <StyledNav>
       <img src={images.logo} alt="easy bank" className="logo" />
 
+      <img src={images.icon_hamburger} alt="" className="nav-toggle" />
+
       <ul className="nav-list">
         <li className="nav-link">home</li>
         <li className="nav-link">about</li>
