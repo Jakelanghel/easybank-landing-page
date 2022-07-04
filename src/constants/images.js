@@ -18,6 +18,8 @@ import img_currency from "../assets/image-currency.jpg";
 import img_mockups from "../assets/image-mockups.png";
 import img_plane from "../assets/image-plane.jpg";
 import img_restaurant from "../assets/image-restaurant.jpg";
+import logo_txt from "../assets/logo-txt.png";
+import logo_icon from "../assets/logo-icon.png";
 
 export const images = {
   desktop_bgIntro,
@@ -39,4 +41,6 @@ export const images = {
   img_plane,
   img_restaurant,
   logo,
+  logo_icon,
+  logo_txt,
 };

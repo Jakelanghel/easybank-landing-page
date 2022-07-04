@@ -12,7 +12,7 @@ const Main = () => {
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
         </p>
-        <button>request invite</button>
+        <button className="green-btn">request invite</button>
       </div>
 
       <div className="img-bg">

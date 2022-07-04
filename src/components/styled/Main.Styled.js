@@ -36,19 +36,24 @@ export const StyledMain = styled.main`
   }
 
   .container-copy {
+    max-width: 400px;
     text-align: center;
-    padding: 0.5rem;
+    padding: 1rem;
+    margin: 0 auto;
 
     h1 {
       font-size: 2.5rem;
       font-weight: 400;
-      color: var(--darkBlue);
       margin-bottom: 1.25rem;
     }
 
     p {
-      color: var(--grayishBlue);
+      margin-bottom: 2.5rem;
       line-height: 1.55rem;
+    }
+
+    button {
+      margin-bottom: 5rem;
     }
   }
 
