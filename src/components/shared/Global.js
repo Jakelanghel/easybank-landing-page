@@ -11,6 +11,8 @@ const GlobalStyles = createGlobalStyle`
         --lt-grayish-blue: hsl(220, 16%, 96%);
         --xlt-grayish-blue: hsl(0, 0%, 98%);
         --white: hsl(0, 0%, 100%);
+        /* overlay */
+        --overlay: rgba(0,0,0,.7)
         }
 
         * {
@@ -59,6 +61,7 @@ const GlobalStyles = createGlobalStyle`
             padding: 4rem 1.5rem;
         }
 
+
         @media screen and (min-width: 950px){
             body {
                 text-align: left;
@@ -73,7 +76,7 @@ const GlobalStyles = createGlobalStyle`
             }
 
             p {
-                max-width: 400px;
+                max-width: 450px;
             }
 
             .section-padding {
@@ -87,7 +90,37 @@ const GlobalStyles = createGlobalStyle`
             .section-padding {
                 padding: 5rem 7rem;
             }
-  }
+        }
+        @media screen and (min-width: 1200px) {
+            body {
+                font-size: 18px;
+
+            }
+
+            h1,h2,h3,h4 {
+                max-width:  400px;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                line-height: 1.75rem;
+            }
+
+            .section-padding {
+                padding: 8rem;
+            }
+            }
        
 `;
 

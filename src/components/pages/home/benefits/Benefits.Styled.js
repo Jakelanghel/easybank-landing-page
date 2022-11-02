@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledBenefits = styled.section`
   width: 100%;
   background-color: var(--lt-grayish-blue);
+  z-index: 0;
 
   span {
     padding: 0 10px;
