@@ -85,7 +85,7 @@ export const StyledHero = styled.section`
 
   @media screen and (min-width: 1100px) {
     .container-hero-copy {
-      padding-left: 10rem;
+      padding-left: 7rem;
     }
   }
 `;

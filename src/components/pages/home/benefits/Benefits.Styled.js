@@ -19,4 +19,22 @@ export const StyledBenefits = styled.section`
   img {
     margin: 2rem 0;
   }
+
+  @media screen and (min-width: 950px) {
+    h2 {
+      max-width: none;
+    }
+
+    p {
+      max-width: 600px;
+    }
+
+    .container-perk > p {
+      max-width: 300px;
+    }
+
+    span {
+      padding: 0;
+    }
+  }
 `;

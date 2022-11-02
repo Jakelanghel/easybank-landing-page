@@ -58,6 +58,7 @@ const GlobalStyles = createGlobalStyle`
         .section-padding {
             padding: 4rem 1.5rem;
         }
+
         @media screen and (min-width: 950px){
             body {
                 text-align: left;
@@ -74,7 +75,19 @@ const GlobalStyles = createGlobalStyle`
             p {
                 max-width: 400px;
             }
+
+            .section-padding {
+                padding: 4rem 4rem;
+            }
         }
+
+
+
+        @media screen and (min-width: 1100px) {
+            .section-padding {
+                padding: 5rem 7rem;
+            }
+  }
        
 `;
 

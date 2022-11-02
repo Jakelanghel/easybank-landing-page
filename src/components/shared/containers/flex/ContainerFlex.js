@@ -4,8 +4,10 @@ export const ContainerFlex = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 
-  .container-row {
-    width: 25%;
+  @media screen and (min-width: 950px) {
+    flex-direction: row;
+    justify-content: space-between;
   }
 `;
