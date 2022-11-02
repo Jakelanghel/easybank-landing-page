@@ -29,8 +29,6 @@ export const StyledFooter = styled.footer`
   .footer-nav-link {
     width: 140px;
     display: block;
-    /* justify-content: center;
-    align-items: center; */
     font-size: 1rem;
     text-decoration: none;
     text-transform: capitalize;
@@ -80,7 +78,19 @@ export const StyledFooter = styled.footer`
     }
 
     .copyright {
-      margin-top: 1rem;
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .container-2 {
+      margin-left: 5rem;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    padding: 3rem 9rem;
+    .container-2 {
+      margin-left: 5rem;
     }
   }
 `;

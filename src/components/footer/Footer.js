@@ -8,7 +8,7 @@ const Footer = () => {
     <StyledFooter>
       <div className="container-footer-links">
         <div className="container-left">
-          <div className="container">
+          <div className="container-1">
             <div className="container-logo">
               <img src={images.logos.logo} alt="" className="footer-logo" />
               <img src={images.logos.brand} alt="" className="footer-brand" />
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <nav className="container">
+          <nav className="container-2">
             <a href="#" className="footer-nav-link">
               about us
             </a>
@@ -45,7 +45,7 @@ const Footer = () => {
             </a>
           </nav>
 
-          <nav className="container">
+          <nav className="container-3">
             <a href="#" className="footer-nav-link">
               careers
             </a>

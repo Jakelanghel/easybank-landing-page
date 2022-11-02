@@ -23,6 +23,23 @@ export const StyledArticles = styled.section`
     border-radius: 5px;
   }
 
+  @media screen and (min-width: 950px) {
+    img {
+      height: 150px;
+      object-fit: cover;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    img {
+      height: 200px;
+    }
+  }
+  @media screen and (min-width: 1700px) {
+    img {
+      height: 250px;
+    }
+  }
+
   .container-copy {
     text-align: left;
     padding: 1.5rem 2rem;

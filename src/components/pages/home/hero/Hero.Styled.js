@@ -54,6 +54,7 @@ export const StyledHero = styled.section`
     .container-hero {
       flex-direction: row;
       position: relative;
+      height: 515px;
     }
 
     .container-hero-copy {
@@ -65,8 +66,8 @@ export const StyledHero = styled.section`
 
     .container-hero-background {
       order: 2;
-      max-width: 550px;
-      height: 555px;
+      max-width: 600px;
+      height: 650px;
       background-image: url(${images.backgrounds.bgIntroDesktop});
       background-size: cover;
       background-position: bottom -30px left -30px;
@@ -76,10 +77,10 @@ export const StyledHero = styled.section`
     }
 
     .img-phones {
-      width: 450px;
+      width: 550px;
       position: absolute;
-      top: 75px;
-      left: 20%;
+      top: 60px;
+      left: 12%;
       transform: translateX(0);
     }
   }
@@ -90,32 +91,56 @@ export const StyledHero = styled.section`
     }
   }
 
-  @media screen and (min-width: 1200px) {
-    height: 470px;
+  @media screen and (min-width: 1300px) {
+    height: 630px;
 
     .container-hero-background {
-      order: 2;
-      max-width: 650px;
-      height: 600px;
-      background-image: url(${images.backgrounds.bgIntroDesktop});
-      background-size: cover;
-      background-position: bottom -30px left -30px;
-      position: absolute;
+      max-width: 700px;
+      height: 790px;
       right: -75px;
-      top: -115px;
+      top: -130px;
     }
 
     .img-phones {
-      width: 500px;
-      position: absolute;
-      top: 75px;
-      left: 20%;
-      transform: translateX(0);
+      width: 650px;
+      top: 65px;
+      left: 15%;
     }
 
     .container-hero-copy {
-      padding: 8rem;
-      padding-right: 0;
+      padding: 10rem 0;
+      padding-left: 9rem;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .container-hero-copy {
+      padding-left: 12rem;
+    }
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+
+  @media screen and (min-width: 1700px) {
+    height: 715px;
+
+    .container-hero-background {
+      max-width: 1100px;
+      background-position: bottom -10px left 200px;
+      height: 900px;
+      right: -75px;
+      top: -130px;
+    }
+
+    .img-phones {
+      width: 750px;
+      top: 65px;
+      left: 35%;
+    }
+
+    .container-hero-copy {
+      padding-left: 12rem;
     }
   }
 `;

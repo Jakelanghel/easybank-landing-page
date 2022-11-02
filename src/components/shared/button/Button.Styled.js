@@ -25,7 +25,7 @@ export const StyledButton = styled.button`
 
   @media screen and (min-width: 950px) {
     margin: 0;
-    font-size: 0.95rem;
-    padding: 0.75rem 2rem;
+    /* font-size: 0.95rem;
+    padding: 0.75rem 2rem; */
   }
 `;

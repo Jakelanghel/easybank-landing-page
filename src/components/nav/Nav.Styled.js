@@ -8,11 +8,14 @@ export const StyledNav = styled.nav`
 
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 
   padding: 0.75rem 2rem;
   padding-right: 1rem;
   background-color: var(--white);
+
+  .container-logo {
+  }
 
   .container-btn {
     display: none;
@@ -38,6 +41,7 @@ export const StyledNav = styled.nav`
     top: 0;
     left: 0;
     z-index: 2;
+    margin-top: 4.9rem;
   }
 
   .container-menu {
@@ -65,7 +69,7 @@ export const StyledNav = styled.nav`
   }
 
   @media screen and (min-width: 950px) {
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
 
     .overlay {
       width: 350px;
@@ -75,6 +79,7 @@ export const StyledNav = styled.nav`
       top: 0;
       left: 0;
       z-index: 2;
+      margin-top: 0;
     }
 
     .container-menu-btn {
@@ -106,5 +111,25 @@ export const StyledNav = styled.nav`
     .nav-link:hover {
       cursor: pointer;
     }
+  }
+
+  @media screen and (min-width: 1100px) {
+    padding: 1rem 7rem;
+  }
+  @media screen and (min-width: 1300px) {
+    padding: 1rem 9rem;
+  }
+  @media screen and (min-width: 1400px) {
+    padding-left: 12rem;
+
+    .container-logo {
+      img {
+        width: 165px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    padding: 1rem 12rem;
   }
 `;

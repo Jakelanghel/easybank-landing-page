@@ -15,6 +15,10 @@ const GlobalStyles = createGlobalStyle`
         --overlay: rgba(0,0,0,.7)
         }
 
+        html {
+            overflow-x: hidden;
+        }
+
         * {
             font-family: 'Public Sans', sans-serif;
             box-sizing: border-box;
@@ -66,39 +70,22 @@ const GlobalStyles = createGlobalStyle`
             body {
                 text-align: left;
             }
+     
 
             h1,h2,h3,h4,p {
+                max-width:  400px;
                 margin: 0;
+                margin-bottom: 1rem;
+
             }
 
             h1,h2,h3,h4 {
                 margin-bottom: 1rem;
             }
 
-            p {
-                max-width: 450px;
-            }
-
-            .section-padding {
-                padding: 4rem 4rem;
-            }
-        }
-
-
-
-        @media screen and (min-width: 1100px) {
-            .section-padding {
-                padding: 5rem 7rem;
-            }
-        }
-        @media screen and (min-width: 1200px) {
             body {
                 font-size: 18px;
 
-            }
-
-            h1,h2,h3,h4 {
-                max-width:  400px;
             }
 
             h1 {
@@ -115,12 +102,57 @@ const GlobalStyles = createGlobalStyle`
 
             p {
                 line-height: 1.75rem;
+                max-width: 450px;
+
             }
 
+         
+
+            .section-padding {
+                padding: 4rem 4rem;
+            }
+        }
+
+
+
+        @media screen and (min-width: 1100px) {
+            .section-padding {
+                padding: 5rem 7rem;
+            }
+        }
+        @media screen and (min-width: 1200px) {
             .section-padding {
                 padding: 8rem;
             }
+        }
+        @media screen and (min-width: 1400px) {
+            h1,h2,h3,h4,p {
+                max-width:  500px;
+                margin-bottom: 1.5rem;
             }
+
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                line-height: 2.25rem;
+
+            }
+
+            .section-padding {
+                padding: 8rem ;
+                padding-left: 12rem;
+            }
+        }
        
 `;
 

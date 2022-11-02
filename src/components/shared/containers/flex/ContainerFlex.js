@@ -10,4 +10,7 @@ export const ContainerFlex = styled.div`
     flex-direction: row;
     justify-content: space-between;
   }
+  @media screen and (min-width: 1400px) {
+    gap: 2rem;
+  }
 `;

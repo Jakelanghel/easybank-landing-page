@@ -58,7 +58,7 @@ const Nav = () => {
 
       <div className="container-menu-btn">
         <img
-          src={images.icons.hamburger}
+          src={navIsOpen ? images.icons.closeIcon : images.icons.hamburger}
           alt="open mobile menu btn"
           className="menu-btn"
           onClick={toggleNav}

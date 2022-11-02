@@ -11,6 +11,7 @@ const Articles = () => {
       <ContainerFlex>
         <div className="container-article">
           <img src={images.img.currency} alt="" />
+
           <div className="container-copy">
             <p className="author">By Claire Robinson</p>
             <h4>Receive money in any currency with no fees</h4>
