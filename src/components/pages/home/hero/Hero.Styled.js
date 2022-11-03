@@ -91,7 +91,7 @@ export const StyledHero = styled.section`
     }
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 1200px) {
     height: 630px;
 
     .container-hero-background {
@@ -114,6 +114,22 @@ export const StyledHero = styled.section`
   }
 
   @media screen and (min-width: 1400px) {
+    height: 625px;
+
+    .container-hero-background {
+      max-width: 900px;
+      background-position: bottom 10px left 60px;
+
+      height: 828px;
+      right: -75px;
+      top: -130px;
+    }
+
+    .img-phones {
+      width: 700px;
+      top: 40px;
+      left: 22%;
+    }
     .container-hero-copy {
       padding-left: 12rem;
     }
