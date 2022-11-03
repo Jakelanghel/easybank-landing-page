@@ -124,6 +124,40 @@ const GlobalStyles = createGlobalStyle`
         @media screen and (min-width: 1400px) {
             
 
+            body {
+                text-align: left;
+            }
+     
+
+            h1,h2,h3,h4,p {
+                max-width:  450px;
+                margin: 0;
+                margin-bottom: 1rem;
+
+            }
+
+            body {
+                font-size: 18px;
+
+            }
+
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            h3 {
+                font-size: 1.15rem;
+            }
+
+            p {
+                line-height: 1.75rem;
+
+            }
+
             .section-padding {
                 padding: 8rem ;
                 padding-left: 12rem;

@@ -94,7 +94,7 @@ export const StyledHero = styled.section`
   @media screen and (min-width: 1300px) {
     height: 630px;
 
-    /* .container-hero-background {
+    .container-hero-background {
       max-width: 700px;
       height: 790px;
       right: -75px;
@@ -105,7 +105,7 @@ export const StyledHero = styled.section`
       width: 650px;
       top: 65px;
       left: 15%;
-    } */
+    }
 
     .container-hero-copy {
       padding: 10rem 0;
