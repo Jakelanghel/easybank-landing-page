@@ -9,6 +9,9 @@ export const StyledArticles = styled.section`
     padding: 1.5rem 0;
   }
 
+  h3 {
+  }
+
   .container-article {
     width: 100%;
     max-width: 400px;

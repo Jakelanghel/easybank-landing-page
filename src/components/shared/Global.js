@@ -37,7 +37,8 @@ const GlobalStyles = createGlobalStyle`
             font-weight: 400;
             color: var(--dark-blue);
             margin: 0 auto;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
+
 
         }
 
@@ -73,14 +74,10 @@ const GlobalStyles = createGlobalStyle`
      
 
             h1,h2,h3,h4,p {
-                max-width:  400px;
+                max-width:  450px;
                 margin: 0;
-                margin-bottom: 1rem;
+                margin-bottom: 0.5rem;
 
-            }
-
-            h1,h2,h3,h4 {
-                margin-bottom: 1rem;
             }
 
             body {
@@ -97,12 +94,11 @@ const GlobalStyles = createGlobalStyle`
             }
 
             h3 {
-                font-size: 1.5rem;
+                font-size: 1.15rem;
             }
 
             p {
                 line-height: 1.75rem;
-                max-width: 450px;
 
             }
 
@@ -126,27 +122,7 @@ const GlobalStyles = createGlobalStyle`
             }
         }
         @media screen and (min-width: 1400px) {
-            h1,h2,h3,h4,p {
-                max-width:  500px;
-                margin-bottom: 1.5rem;
-            }
-
-            h1 {
-                font-size: 3.5rem;
-            }
-
-            h2 {
-                font-size: 2.5rem;
-            }
-
-            h3 {
-                font-size: 1.5rem;
-            }
-
-            p {
-                line-height: 2.25rem;
-
-            }
+            
 
             .section-padding {
                 padding: 8rem ;

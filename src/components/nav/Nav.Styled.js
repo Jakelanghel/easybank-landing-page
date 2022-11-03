@@ -128,8 +128,4 @@ export const StyledNav = styled.nav`
       }
     }
   }
-
-  @media screen and (min-width: 1300px) {
-    padding: 1rem 12rem;
-  }
 `;
